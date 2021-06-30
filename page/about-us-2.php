@@ -8,7 +8,7 @@
 
 			<!-- Bottom header -->
 			<div class="template-header-bottom">
-				<?php Template::includeHeaderBottom('About Us II','About Fable',2,1); ?>
+				<?php Template::includeHeaderBottom('About Us','About Fable',2,1); ?>
 			</div>
 
 		</div>

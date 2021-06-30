@@ -8,7 +8,7 @@
 
 			<!-- Bottom header -->
 			<div class="template-header-bottom">
-				<?php Template::includeHeaderBottom('Contact Us I','Get In Touch With Us',10,1); ?>
+				<?php Template::includeHeaderBottom('Contact Us','Get In Touch With Us',10,1); ?>
 			</div>
 
 		</div>

@@ -1092,8 +1092,6 @@ textarea,
 	/* Layout / 100															  */
 	/**************************************************************************/
 
-	.template-layout-100	{}
-
 	.template-layout-100>.template-layout-column-left 
 	{ 
 		width:100%;
@@ -1105,7 +1103,7 @@ textarea,
 	/* Layout / 50x50														  */
 	/**************************************************************************/
 
-	.template-layout-50x50 {}
+	
 
 	.template-layout-50x50>.template-layout-column-left 
 	{ 
@@ -1145,8 +1143,6 @@ textarea,
 	/* Layout / 33x33x33													  */
 	/**************************************************************************/	
 
-	.template-layout-33x33x33 {}
-
 	.template-layout-33x33x33>.template-layout-column-left 
 	{ 
 		clear:both;
@@ -1184,7 +1180,7 @@ textarea,
 	/* Layout / 25x25x25x25													  */
 	/**************************************************************************/
 
-	.template-layout-25x25x25x25 {}
+	
 
 	.template-layout-25x25x25x25>.template-layout-column-left 
 	{ 
@@ -1225,7 +1221,7 @@ textarea,
 	/* Layout / 66x33														  */
 	/**************************************************************************/
 
-	.template-layout-66x33 {}
+	
 
 	.template-layout-66x33>.template-layout-column-left 
 	{ 
@@ -1248,7 +1244,7 @@ textarea,
 	/* Layout / 33x66														  */
 	/**************************************************************************/
 
-	.template-layout-33x66 {}
+	
 
 	.template-layout-33x66>.template-layout-column-left 
 	{ 
@@ -1271,7 +1267,7 @@ textarea,
 	/* Layout / 75x25														  */
 	/**************************************************************************/
 
-	.template-layout-75x25 {}
+	
 
 	.template-layout-75x25>.template-layout-column-left 
 	{ 
@@ -1294,7 +1290,7 @@ textarea,
 	/* Layout / 25x75														  */
 	/**************************************************************************/
 
-	.template-layout-25x75 {}
+	
 
 	.template-layout-25x75>.template-layout-column-left 
 	{ 
@@ -1317,10 +1313,7 @@ textarea,
 /* Template layout															  */
 /******************************************************************************/
 
-.template-content-layout
-{
-	
-}
+
 
 	.template-content-layout.template-content-layout-sidebar-left .template-content-layout-column-left,
 	.template-content-layout.template-content-layout-sidebar-right .template-content-layout-column-right
@@ -2031,6 +2024,7 @@ h6,h6 a,
 		.template-icon-menu.template-icon-menu-database							{	background-image:url('../media/image/icon/menu/database.png');		}
 		.template-icon-menu.template-icon-menu-diagram							{	background-image:url('../media/image/icon/menu/diagram.png');		}
 		.template-icon-menu.template-icon-menu-document							{	background-image:url('../media/image/icon/menu/document.png');		}
+		.template-icon-menu.template-icon-menu-gallery							{	background-image:url('../media/image/icon/menu/video.png');			}
 		.template-icon-menu.template-icon-menu-envelope							{	background-image:url('../media/image/icon/menu/envelope.png');		}	
 		.template-icon-menu.template-icon-menu-faq								{	background-image:url('../media/image/icon/menu/faq.png');			}
 		.template-icon-menu.template-icon-menu-fastfood							{	background-image:url('../media/image/icon/menu/fastfood.png');		}
@@ -2144,10 +2138,7 @@ h6,h6 a,
 		/* Template / Header / Top											  */
 		/**********************************************************************/		
 	
-		.template-header .template-header-top
-		{
-			
-		}
+
 		
 		.template-header .template-header-top.template-header-top-sticky
 		{
@@ -2176,10 +2167,7 @@ h6,h6 a,
 		/* Template / Header / Bottom										  */
 		/**********************************************************************/	
 		
-		.template-header .template-header-bottom
-		{
-			
-		}
+
 		
 			.template-header .template-header-bottom .template-header-bottom-background
 			{
@@ -2209,10 +2197,7 @@ h6,h6 a,
 					margin-bottom:0px;
 				}
 			
-				.template-header .template-header-bottom .template-header-bottom-background h1
-				{
-					
-				}
+
 				
 				.template-header .template-header-bottom .template-header-bottom-background h6
 				{
@@ -2338,12 +2323,7 @@ h6,h6 a,
 
 /******************************************************************************/
 /* Pagination																  */
-/******************************************************************************/
-
-.template-pagination
-{
-	
-}
+/*****************************************************************************
 
 	/**************************************************************************/
 	/* Pagination / Style 1													  */
@@ -2574,10 +2554,7 @@ textarea
 	margin-top:0px;
 }
 
-.template-form-line-submit
-{
-	
-}
+.t
 
 	.template-form-line-submit>div
 	{
@@ -2777,12 +2754,7 @@ textarea
 
 /******************************************************************************/
 /* Blog																		  */
-/******************************************************************************/
-
-ul.template-post-list
-{
-	
-}
+/******************************************************************************
 
 	ul.template-post-list>li
 	{
@@ -2791,12 +2763,7 @@ ul.template-post-list
 	
 /******************************************************************************/
 /* Post																		  */
-/******************************************************************************/
-	
-.template-post
-{
-	
-}
+/************************************************************************
 
 	/**************************************************************************/
 	/* Post / Section														  */
@@ -2994,10 +2961,7 @@ ul.template-post-list
 			background-position:center left;
 		}
 		
-			.template-post-meta>div>ul
-			{
-				
-			}
+
 			
 				.template-post-meta>div>ul>li
 				{
@@ -3126,10 +3090,8 @@ ul.template-post-list
 			/*	Post / Comments list / Comment / Meta						  */
 			/******************************************************************/
 			
-			.template-post .template-post-comment-list>ul>li .template-comment-meta
-			{
 
-			}
+
 			
 				.template-post .template-post-comment-list>ul>li .template-comment-meta>a,
 				.template-post .template-post-comment-list>ul>li .template-comment-meta h6>a
@@ -3208,10 +3170,8 @@ ul.template-post-list
 	/* Post / Reply form													  */
 	/**************************************************************************/
 	
-	.template-post .template-post-reply-form
-	{
-		
-	}
+
+
 	
 		.template-post .template-post-reply-form>h5
 		{
@@ -3250,10 +3210,7 @@ ul.template-widget-list
 		margin-top:0px;
 	}
 	
-		ul.template-widget-list>li>h6
-		{
-			
-		}
+
 		
 			ul.template-widget-list>li>h6>span
 			{
@@ -3268,10 +3225,7 @@ ul.template-widget-list
 				margin-top:10px;
 			}
 			
-			ul.template-widget-list>li>div
-			{
-				
-			}
+
 			
 			ul.template-widget-list>li>div h6,
 			ul.template-widget-list>li>div h6 a
@@ -3287,17 +3241,12 @@ ul.template-widget-list
 
 	.template-widget-most-commented.template-widget-most-commented-style-1,
 	.template-widget-recent-post.template-widget-recent-post-style-1,
-	.template-widget-recent-comment.template-widget-recent-comment-style-1
-	{
-		
-	}
+
+
 	
 		.template-widget-most-commented.template-widget-most-commented-style-1>ul,
 		.template-widget-recent-post.template-widget-recent-post-style-1>ul,
-		.template-widget-recent-comment.template-widget-recent-comment-style-1>ul
-		{
-			
-		}
+
 
 			.template-widget-most-commented.template-widget-most-commented-style-1>ul>li,
 			.template-widget-recent-post.template-widget-recent-post-style-1>ul>li,
@@ -3374,17 +3323,12 @@ ul.template-widget-list
 
 	.template-widget-most-commented.template-widget-most-commented-style-2,
 	.template-widget-recent-post.template-widget-recent-post-style-2,
-	.template-widget-recent-comment.template-widget-recent-comment-style-2
-	{
-		
-	}
+
+
 	
 		.template-widget-most-commented.template-widget-most-commented-style-2>ul,
 		.template-widget-recent-post.template-widget-recent-post-style-2>ul,
-		.template-widget-recent-comment.template-widget-recent-comment-style-2>ul
-		{
-			
-		}
+
 
 			.template-widget-most-commented.template-widget-most-commented-style-2>ul>li,
 			.template-widget-recent-post.template-widget-recent-post-style-2>ul>li,
@@ -3459,10 +3403,8 @@ ul.template-widget-list
 	
 	.template-widget-tag,
 	.template-widget-archive.template-widget-archive-style-1,
-	.template-widget-category.template-widget-category-style-1
-	{
-		
-	}
+
+
 	
 		.template-widget-tag>ul,
 		.template-widget-archive.template-widget-archive-style-1>ul,
@@ -3474,10 +3416,7 @@ ul.template-widget-list
 		}
 		
 			.template-widget-archive.template-widget-archive-style-1>ul>li,
-			.template-widget-category.template-widget-category-style-1>ul>li
-			{
-				
-			}
+
 			
 			.template-widget-tag>ul>li
 			{
@@ -3520,10 +3459,8 @@ ul.template-widget-list
 	/* Widget / Search														  */
 	/**************************************************************************/
 				
-	.template-widget-search-form
-	{
-		
-	}
+
+
 	
 		.template-widget-search-form .template-form-line:first-child
 		{
@@ -3558,10 +3495,8 @@ ul.template-widget-list
 	/* Widget / Menu														  */
 	/**************************************************************************/		
 		
-	.template-widget-menu
-	{
-		
-	}
+
+
 	
 		.template-widget-menu ul
 		{
@@ -3580,10 +3515,7 @@ ul.template-widget-list
 				margin-right:30px;
 			}
 
-			.template-widget-menu ul>li
-			{
-				
-			}
+
 			
 				.template-widget-menu ul>li>a
 				{
@@ -3640,12 +3572,7 @@ ul.template-widget-list
 
 /******************************************************************************/
 /* List icon					                                              */
-/******************************************************************************/
-
-.template-list-icon
-{
-	
-}
+/****************************************************************************
 
 	.template-list-icon>li
 	{
@@ -3904,10 +3831,8 @@ ul.template-widget-list
 	/* Component / Background Video											  */
 	/**************************************************************************/
 
-	.template-component-background-video
-	{
-		
-	}
+
+
 	
 		.template-component-background-video>div
 		{
@@ -4005,10 +3930,7 @@ ul.template-widget-list
 			text-decoration:none;
 		}
 	
-		.template-component-button.template-component-button-style-1
-		{
-			
-		}
+
 		
 		.template-component-button.template-component-button-style-2,
 		.template-component-button.template-component-button-style-3,
@@ -4120,10 +4042,7 @@ ul.template-widget-list
 					font-size:14px;
 				}
 		
-				.template-component-call-to-action .template-component-call-to-action-content>.template-component-call-to-action-content-left
-				{
 
-				}
 				
 					.template-component-call-to-action .template-component-call-to-action-content>.template-component-call-to-action-content-left>h3,
 					.template-component-call-to-action .template-component-call-to-action-content>.template-component-call-to-action-content-left>h4
@@ -4155,10 +4074,7 @@ ul.template-widget-list
 					text-align:right;
 				}
 				
-				.template-component-call-to-action.template-component-call-to-action-responsive .template-component-call-to-action-content>.template-component-call-to-action-content-right
-				{
-					
-				}
+
 				
 					.template-component-call-to-action.template-component-call-to-action-responsive .template-component-call-to-action-content>.template-component-call-to-action-content-right>a
 					{
@@ -4170,25 +4086,14 @@ ul.template-widget-list
 	/* Component / Class													  */
 	/**************************************************************************/
 	
-	.template-component-class
-	{
-		
-	}
+
+
 	
-		.template-component-class>ul
-		{
-			
-		}
+
 		
-			.template-component-class>ul>li
-			{
-				
-			}
+
 			
-				.template-component-class>ul>li>.template-layout-flex-50x50
-				{
-					
-				}
+
 				
 				.template-component-class.template-component-class-responsive>ul>li>.template-layout-flex-50x50
 				{
@@ -4207,10 +4112,7 @@ ul.template-widget-list
 						flex-basis:100%;
 					}
 					
-					.template-component-class.template-component-class-responsive>ul>li>.template-layout-flex-50x50>div
-					{
-						
-					}
+
 					
 					.template-component-class.template-component-class-responsive>ul>li>.template-layout-flex-50x50>div+div
 					{
@@ -4250,10 +4152,6 @@ ul.template-widget-list
 								display:block;
 							}
 
-							.template-component-class>ul>li>.template-layout-flex-50x50>div>.template-layout-flex-50x50 span:first-child
-							{
-
-							}
 
 							.template-component-class>ul>li>.template-layout-flex-50x50>div>.template-layout-flex-50x50 span:first-child+span
 							{
@@ -4354,15 +4252,9 @@ ul.template-widget-list
 						display:inline;
 					}
 
-					.template-component-counter-box ul>li>.template-component-counter-box-counter>.template-component-counter-box-counter-value
-					{
 
-					}
 
-					.template-component-counter-box ul>li>.template-component-counter-box-counter>.template-component-counter-box-counter-character
-					{
-						
-					}
+
 					
 					.template-component-counter-box ul>li>.template-component-counter-box-counter>.template-component-counter-box-counter-value+.template-component-counter-box-counter-character
 					{
@@ -4410,10 +4302,6 @@ ul.template-widget-list
 	/* Component / Counter list												  */
 	/**************************************************************************/
 	
-	.template-component-counter-list
-	{
-
-	}
 		
 		.template-component-counter-list>ul
 		{
@@ -4423,15 +4311,9 @@ ul.template-widget-list
 			list-style:none;
 		}
 		
-			.template-component-counter-list>ul>li
-			{
-				
-			}
+
 						
-				.template-component-counter-list>ul>li>.template-component-counter-list-label
-				{
-					
-				}
+
 				
 				.template-component-counter-list>ul>li>.template-component-counter-list-counter
 				{
@@ -4443,15 +4325,9 @@ ul.template-widget-list
 						display:none;
 					}
 				
-					.template-component-counter-list>ul>li>.template-component-counter-list-counter>.template-component-counter-list-counter-value
-					{
-						
-					}
+
 					
-					.template-component-counter-list>ul>li>.template-component-counter-list-counter>.template-component-counter-list-counter-character
-					{
-						
-					}
+
 					
 				.template-component-counter-list>ul>li>.template-component-counter-list-timeline,
 				.template-component-counter-list>ul>li>.template-component-counter-list-timeline>span
@@ -4551,19 +4427,13 @@ ul.template-widget-list
 			margin-top:30px;
 		}
 		
-			.template-component-feature ul>li
-			{
-				
-			}
+
 			
 				/**************************************************************/
 				/* Component / Feature / Icon								  */
 				/**************************************************************/
 			
-				.template-component-feature ul>li>.template-icon-feature
-				{
-					
-				}
+
 				
 					/**********************************************************/
 					/* Component / Feature / Icon / Style					  */
@@ -4785,29 +4655,18 @@ ul.template-widget-list
 			position:static;
 		}
 		
-		.template-component-flex-slider .flex-direction-nav
-		{
-			
-		}
+
 		
-			.template-component-flex-slider .flex-direction-nav li
-			{
-				
-			}
+
 			
 	/**************************************************************************/
 	/* Component / Gallery													  */
 	/**************************************************************************/
 			
-	.template-component-gallery
-	{
-		
-	}
+
+
 	
-		.template-component-gallery>ul
-		{
-			
-		}
+
 		
 			.template-component-gallery>ul>li
 			{
@@ -4818,10 +4677,8 @@ ul.template-widget-list
 	/* Component / Google Map												  */
 	/**************************************************************************/
 		
-	.template-component-google-map
-	{
-		
-	}
+
+
 	
 	/**************************************************************************/
 	/* Component / Go To Top												  */
@@ -4939,10 +4796,7 @@ ul.template-widget-list
 			position:relative;
 		}
 		
-			.template-component-image>a>img
-			{
-				
-			}
+
 			
 			.template-component-image>a span
 			{
@@ -5031,10 +4885,8 @@ ul.template-widget-list
 	/* Component / List														  */
 	/**************************************************************************/
 	
-	.template-component-list
-	{
-		
-	}
+
+
 	
 		.template-component-list>ul
 		{
@@ -5087,11 +4939,6 @@ ul.template-widget-list
 			{
 				position:static;
 			}
-			
-				.template-component-menu-default ul.sf-menu>li
-				{
-
-				}
 				
 				.template-component-menu-default ul.sf-menu>li.sf-mega-enable-1
 				{
@@ -5183,6 +5030,7 @@ ul.template-widget-list
 									font-size:14px;
 									font-weight:600;
 									padding:13px 20px 13px 20px;
+									text-align: center;
 								}
 
 		/**********************************************************************/
@@ -5194,10 +5042,7 @@ ul.template-widget-list
 			display:none;
 		}
 		
-			.template-component-menu-responsive ul
-			{
-		
-			}
+
 			
 			.template-component-menu-responsive>ul
 			{
@@ -5360,10 +5205,8 @@ ul.template-widget-list
 	/* Component / Nivo slider												  */
 	/**************************************************************************/
 					
-	.template-component-nivo-slider
-	{
-		
-	}
+
+
 	
 		.template-component-nivo-slider .nivo-controlNav.nivo-thumbs-enabled
 		{
@@ -5431,20 +5274,15 @@ ul.template-widget-list
 	/* Component / Pricing Plan												  */
 	/**************************************************************************/
 		
-	.template-component-pricing-plan
-	{
-		
-	}
+
+
 	
 	.template-component-pricing-plan.template-component-pricing-plan-style-1
 	{
 		margin-top:30px;
 	}
 	
-		.template-component-pricing-plan>ul
-		{
-			
-		}
+
 		
 			.template-component-pricing-plan>ul>li
 			{
@@ -5530,15 +5368,8 @@ ul.template-widget-list
 							display:block;
 						}
 
-						.template-component-pricing-plan>ul>li .template-component-pricing-plan-price>span:first-child
-						{
 
-						}
 
-						.template-component-pricing-plan>ul>li .template-component-pricing-plan-price>span:first-child+span
-						{
-
-						}
 
 					.template-component-pricing-plan.template-component-pricing-plan-style-1>ul>li .template-component-pricing-plan-header
 					{
@@ -5555,10 +5386,7 @@ ul.template-widget-list
 						margin-top:80px;
 					}
 
-					.template-component-pricing-plan>ul>li .template-component-pricing-plan-description
-					{
 
-					}
 
 					.template-component-pricing-plan>ul>li .template-component-pricing-plan-feature
 					{
@@ -5575,20 +5403,12 @@ ul.template-widget-list
 	/* Component / Recent Post												  */
 	/**************************************************************************/
 	
-	.template-component-recent-post
-	{
-		
-	}
+
+
 	
-		.template-component-recent-post>ul
-		{
-			
-		}
+
 		
-			.template-component-recent-post>ul>li
-			{
-				
-			}
+
 			
 				.template-component-recent-post>ul>li>.template-component-recent-post-date
 				{
@@ -5674,10 +5494,8 @@ ul.template-widget-list
 	/* Component / Reply form												  */
 	/**************************************************************************/
 	
-	.template-component-reply-form
-	{
-		
-	}	
+
+	
 		
 		.template-component-reply-form .template-form-line
 		{
@@ -5688,10 +5506,8 @@ ul.template-widget-list
 	/* Component / Social icon												  */
 	/**************************************************************************/
 		
-	.template-component-social-icon
-	{
-		
-	}
+
+
 	
 		.template-component-social-icon>ul
 		{
@@ -5880,10 +5696,8 @@ ul.template-widget-list
 	/* Component / Team														  */
 	/**************************************************************************/
 	
-	.template-component-team
-	{
-		
-	}
+
+
 	
 		.template-component-team .template-component-team-position
 		{
@@ -5946,10 +5760,7 @@ ul.template-widget-list
 		/* Component / Team / Style 1										  */
 		/**********************************************************************/
 	
-		.template-component-team.template-component-team-style-1
-		{
-			
-		}
+
 		
 			.template-component-team.template-component-team-style-1>ul>li,
 			.template-component-team.template-component-team-style-1>ul>li>ul>li
@@ -5996,10 +5807,7 @@ ul.template-widget-list
 		/* Component / Team / Style 2										  */
 		/**********************************************************************/
 		
-		.template-component-team.template-component-team-style-2
-		{
-			
-		}
+
 		
 			.template-component-team.template-component-team-style-2>ul>li
 			{
@@ -6022,10 +5830,7 @@ ul.template-widget-list
 		/* Component / Team / Style 3										  */
 		/**********************************************************************/
 
-		.template-component-team.template-component-team-style-3
-		{
-			
-		}
+
 				
 	/**************************************************************************/
 	/* Component / Tab														  */
@@ -6194,19 +5999,14 @@ ul.template-widget-list
 				}
 				
 				.template-component-testimonial ul>li>span,
-				.template-component-twitter-user-timeline ul>li>span
-				{
-					
-				}
+
 		
 	/**************************************************************************/
 	/* Component / Verical grid												  */
 	/**************************************************************************/
 	
-	.template-component-vertical-grid
-	{
-		
-	}
+
+
 	
 		.template-component-vertical-grid>ul
 		{
@@ -6223,15 +6023,9 @@ ul.template-widget-list
 				display:table-row;
 			}
 			
-				.template-component-vertical-grid>ul>li.template-component-vertical-grid-line-1n
-				{
-					
-				}
+
 				
-				.template-component-vertical-grid>ul>li.template-component-vertical-grid-line-2n
-				{
-					
-				}
+
 			
 				.template-component-vertical-grid>ul>li>div
 				{
@@ -6254,10 +6048,8 @@ ul.template-widget-list
 	/* Component / zAccordion												  */
 	/**************************************************************************/
 	
-	.template-component-zaccordion
-	{
-		
-	}
+
+
 	
 		.template-component-zaccordion>ul
 		{
@@ -6308,15 +6100,10 @@ ul.template-widget-list
 	/* Page / 404															  */
 	/**************************************************************************/
 
-	body.template-page-404
-	{
-		
-	}
-	
-		body.template-page-404 .template-content
-		{
 
-		}
+
+	
+
 
 			body.template-page-404 .template-content .template-content-section
 			{
@@ -6359,10 +6146,7 @@ ul.template-widget-list
 			vertical-align:middle;
 		}
 		
-			.template-page-maintenance-mode .template-content .template-content-section
-			{
-		
-			}
+
 			
 				.template-page-maintenance-mode .template-content .template-content-section h1
 				{

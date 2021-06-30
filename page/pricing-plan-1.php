@@ -8,7 +8,7 @@
 
 			<!-- Bottom header -->
 			<div class="template-header-bottom">
-				<?php Template::includeHeaderBottom('Pricing Plans I','Browse Our Plans',9,1); ?>
+				<?php Template::includeHeaderBottom('Pricing Plans','Browse Our Plans',9,1); ?>
 			</div>
 
 		</div>

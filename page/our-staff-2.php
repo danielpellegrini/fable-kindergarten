@@ -12,7 +12,7 @@
 
 			<!-- Bottom header -->
 			<div class="template-header-bottom">
-				<?php Template::includeHeaderBottom('Our Staff II','Meet Our Educators',3,1); ?>
+				<?php Template::includeHeaderBottom('Our Staff','Meet Our Educators',3,1); ?>
 			</div>
 
 		</div>

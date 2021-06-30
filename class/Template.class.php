@@ -26,7 +26,7 @@ class Template
 	static function getCurrentFilePath($page=null)
 	{
 		if((is_null($page)) && (isset($_GET['page']))) $page=$_GET['page'];
-		if((is_null($page))) $page='home-2';
+		if((is_null($page))) $page='home';
 		
 		$path=self::getFilePath('page',$page);
 		
@@ -72,7 +72,7 @@ class Template
 						<div class="template-main template-clear-fix">
 
 							<div class="template-header-top-logo">
-								<a href="'.self::getPageURL('home-2',false).'">
+								<a href="'.self::getPageURL('home',false).'">
 									<img src="media/image/logo_header.png" alt="" />
 								</a>
 							</div>
@@ -92,7 +92,7 @@ class Template
 										'.self::createMenuItem('#teachers','Teachers','diagram').'
 										'.self::createMenuItem('#blog','Blog','printer').'
 										'.self::createMenuItem('#contact','Contact','envelope').'
-										'.self::createMenuItem('home-2','Exit One Page','stroller').'
+										'.self::createMenuItem('home','Exit One Page','stroller').'
 									</ul>
 								</nav>
 
@@ -107,7 +107,7 @@ class Template
 												'.self::createMenuItem('#teachers','Teachers').'
 												'.self::createMenuItem('#blog','Blog').'
 												'.self::createMenuItem('#contact','Contact').'
-												'.self::createMenuItem('home-2','Exit One Page').'
+												'.self::createMenuItem('home','Exit One Page').'
 											</ul>
 										</li>
 									</ul>
@@ -123,109 +123,52 @@ class Template
 									<ul class="sf-menu template-clear-fix">
 
 										<li class="sf-mega-enable-0">
-											'.self::createMenuItem('home-2','Home','home',false).'
-										</li>
-										<li class="sf-mega-enable-1">
-											'.self::createMenuItem('#','Pages','document',false).'
-											<div class="sf-mega template-layout-25x25x25x25 template-clear-fix">
-												<div class="template-layout-column-left">
-													<span class="sf-mega-header">Pages I</span>
-													<ul>
-														'.self::createMenuItem('about-us-1','About Us I').'
-														'.self::createMenuItem('about-us-2','About Us II').'
-														'.self::createMenuItem('our-service-1','Our Services I').'
-														'.self::createMenuItem('our-service-2','Our Services II').'
-														'.self::createMenuItem('page-right-sidebar','Page Right Sidebar').'
-														'.self::createMenuItem('page-left-sidebar','Page Left Sidebar').'
-													</ul>
-												</div>
-												<div class="template-layout-column-center-left">
-													<span class="sf-mega-header">Pages II</span>
-													<ul>
-														'.self::createMenuItem('our-class','Our Classes').'
-														'.self::createMenuItem('single-class','Single Class').'
-														'.self::createMenuItem('our-staff-1','Our Staff I').'
-														'.self::createMenuItem('our-staff-2','Our Staff II').'
-														'.self::createMenuItem('single-teacher','Single Teacher').'
-														'.self::createMenuItem('sitemap','Sitemap').'
-													</ul>												
-												</div>
-												<div class="template-layout-column-center-right">
-													<span class="sf-mega-header">Pages III</span>
-													<ul>
-														'.self::createMenuItem('gallery-2-column','II Columns Gallery ').'
-														'.self::createMenuItem('gallery-3-column','III Columns Gallery').'
-														'.self::createMenuItem('gallery-4-column','IV Columns Gallery').'
-														'.self::createMenuItem('gallery-tabbed','Tabbed Gallery').'
-														'.self::createMenuItem('gallery-right-sidebar','Gallery Right Sidebar').'
-														'.self::createMenuItem('gallery-left-sidebar','Gallery Left Sidebar').'
-													</ul>												
-												</div>
-												<div class="template-layout-column-right">
-													<span class="sf-mega-header">Pages IV</span>
-													<ul>
-														'.self::createMenuItem('contact-us-1','Contact Us I').'
-														'.self::createMenuItem('contact-us-2','Contact Us II').'
-														'.self::createMenuItem('pricing-plan-1','Pricing Plans I').'
-														'.self::createMenuItem('pricing-plan-2','Pricing Plans II').'
-														'.self::createMenuItem('404','Page Not Found').'
-														'.self::createMenuItem('maintenance-mode','Maintenance Mode').'
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li class="sf-mega-enable-1">
-											'.self::createMenuItem('#','Blog','printer',false).'
-											<div class="sf-mega template-layout-33x33x33 template-clear-fix">
-												<div class="template-layout-column-left">
-													<span class="sf-mega-header">Layouts</span>
-													<ul>
-														'.self::createMenuItem('blog-full-width','Blog Full Width').'
-														'.self::createMenuItem('blog-right-sidebar','Blog Right Sidebar').'
-														'.self::createMenuItem('blog-left-sidebar','Blog Left Sidebar').'
-														'.self::createMenuItem('post-full-width','Post Full Width').'
-														'.self::createMenuItem('post-right-sidebar','Post Right Sidebar').'
-														'.self::createMenuItem('post-left-sidebar','Post Left Sidebar').'
-													</ul>
-												</div>
-												<div class="template-layout-column-center">
-													<span class="sf-mega-header">Post Types</span>
-													<ul>
-														'.self::createMenuItem('post-image','Post Image').'
-														'.self::createMenuItem('post-audio','Post Audio').'
-														'.self::createMenuItem('post-video-1','Post Video I').'
-														'.self::createMenuItem('post-video-2','Post Video II').'
-														'.self::createMenuItem('post-slider','Post Slider').'
-														'.self::createMenuItem('post-quote','Post Quote').'
-													</ul>												
-												</div>
-												<div class="template-layout-column-right">
-													<span class="sf-mega-header">Other Pages</span>
-													<ul>
-														'.self::createMenuItem('blog-page-tag','Tag Page').'
-														'.self::createMenuItem('blog-page-archive','Archive Page').'
-														'.self::createMenuItem('blog-page-category','Category Page').'
-														'.self::createMenuItem('blog-page-search','Search Result Page').'
-														'.self::createMenuItem('blog-page-author','Author Page').'
-													</ul>												
-												</div>
-											</div>
-										</li>
-										 <li class="sf-mega-enable-1">
-											'.self::createMenuItem('#','Shortcode','lab',false).'
-											
+											'.self::createMenuItem('home','Home','home',false).'
 										</li>
 										<li class="sf-mega-enable-0">
-											'.self::createMenuItem('#','Contact','envelope',false).'
-											<ul>
-												'.self::createMenuItem('contact-us-1','Contact Style I').'
-												'.self::createMenuItem('contact-us-2','Contact Style II').'
-											</ul>
+											'.self::createMenuItem('#','About','document',false).'
+												<ul>
+													'.self::createMenuItem('our-service-1','Our Services').'
+													'.self::createMenuItem('page-right-sidebar','Page Right Sidebar').'
+													'.self::createMenuItem('page-left-sidebar','Page Left Sidebar').'
+												</ul>
+										</li>
+										<li class="sf-mega-enable-0">
+											'.self::createMenuItem('gallery-left-sidebar','Gallery','video',false).'
+										</li>
+										<li class="sf-mega-enable-0">
+											'.self::createMenuItem('#','Blog','printer',false).'
+												<ul>
+													'.self::createMenuItem('post-image','Post Image').'
+													'.self::createMenuItem('post-audio','Post Audio').'
+													'.self::createMenuItem('post-video-1','Post Video I').'
+													'.self::createMenuItem('post-video-2','Post Video II').'
+													'.self::createMenuItem('post-slider','Post Slider').'
+													'.self::createMenuItem('post-quote','Post Quote').'
+												</ul>												
+										</li>
+										 <li class="sf-mega-enable-0">
+											'.self::createMenuItem('#','Classes','lab',false). '
+												<ul>
+													' . self::createMenuItem('our-class', 'Our Classes') . '
+													' . self::createMenuItem('single-class', 'Single Class') . '
+													' . self::createMenuItem('our-staff-2', 'Our Staff') . '
+													' . self::createMenuItem('single-teacher', 'Single Teacher') . '
+												</ul>
+										</li>
+										<li class="sf-mega-enable-0">
+											'.self::createMenuItem('#','Contact','envelope',false). '
+													<ul>
+														' . self::createMenuItem('about-us-2', 'About Us') . '
+														' . self::createMenuItem('contact-us-1', 'Contact Us') . '
+														' . self::createMenuItem('pricing-plan-1', 'Pricing Plans') . '
+													</ul>
 										</li>
 
 									</ul>
 
 								</nav>
+							
 
 								<nav class="template-component-menu-responsive">
 
@@ -235,7 +178,7 @@ class Template
 											'.self::createMenuItem('#','Menu',true,false).'
 											<ul>
 												<li>
-													'.self::createMenuItem('home-2','Home',true,false).'
+													'.self::createMenuItem('home','Home',true,false).'
 												</li>
 												<li>
 													'.self::createMenuItem('#','Pages',true,false).'
@@ -243,10 +186,7 @@ class Template
 														<li>
 															'.self::createMenuItem('#','Pages I',true,false).'
 															<ul>
-																'.self::createMenuItem('about-us-1','About Us I').'
-																'.self::createMenuItem('about-us-2','About Us II').'
-																'.self::createMenuItem('our-service-1','Our Services I').'
-																'.self::createMenuItem('our-service-2','Our Services II').'
+																'.self::createMenuItem('our-service-1','Our Services').'
 																'.self::createMenuItem('page-right-sidebar','Page Right Sidebar').'
 																'.self::createMenuItem('page-left-sidebar','Page Left Sidebar').'
 															</ul>
@@ -265,24 +205,8 @@ class Template
 														<li>
 															'.self::createMenuItem('#','Pages III',true,false).'
 															<ul>
-																'.self::createMenuItem('gallery-2-column','II Columns Gallery ').'
-																'.self::createMenuItem('gallery-3-column','III Columns Gallery').'
-																'.self::createMenuItem('gallery-4-column','IV Columns Gallery').'
-																'.self::createMenuItem('gallery-tabbed','Tabbed Gallery').'
-																'.self::createMenuItem('gallery-right-sidebar','Gallery Right Sidebar').'
-																'.self::createMenuItem('gallery-left-sidebar','Gallery Left Sidebar').'
+																'.self::createMenuItem('gallery-left-sidebar','Gallery').'
 															</ul>												
-														</li>
-														<li>
-															'.self::createMenuItem('#','Pages IV',true,false).'
-															<ul>
-																'.self::createMenuItem('contact-us-1','Contact Us I').'
-																'.self::createMenuItem('contact-us-2','Contact Us II').'
-																'.self::createMenuItem('pricing-plan-1','Pricing Plans I').'
-																'.self::createMenuItem('pricing-plan-2','Pricing Plans II').'
-																'.self::createMenuItem('404','Page Not Found').'
-																'.self::createMenuItem('maintenance-mode','Maintenance Mode').'
-															</ul>
 														</li>
 													</ul>
 												</li>
@@ -290,18 +214,7 @@ class Template
 													'.self::createMenuItem('#','Blog',true,false).'
 													<ul>
 														<li>
-															'.self::createMenuItem('#','Layouts',true,false).'
-															<ul>
-																'.self::createMenuItem('blog-full-width','Blog Full Width').'
-																'.self::createMenuItem('blog-right-sidebar','Blog Right Sidebar').'
-																'.self::createMenuItem('blog-left-sidebar','Blog Left Sidebar').'
-																'.self::createMenuItem('post-full-width','Post Full Width').'
-																'.self::createMenuItem('post-right-sidebar','Post Right Sidebar').'
-																'.self::createMenuItem('post-left-sidebar','Post Left Sidebar').'
-															</ul>
-														</li>
-														<li>
-															'.self::createMenuItem('#','Post Types',true,false).'
+															'.self::createMenuItem('#','Posts',true,false).'
 															<ul>
 																'.self::createMenuItem('post-image','Post Image').'
 																'.self::createMenuItem('post-audio','Post Audio').'
@@ -311,83 +224,12 @@ class Template
 																'.self::createMenuItem('post-quote','Post Quote').'
 															</ul>												
 														</li>
-														<li>
-															'.self::createMenuItem('#','Other Pages',true,false).'
-															<ul>
-																'.self::createMenuItem('blog-page-tag','Tag Page').'
-																'.self::createMenuItem('blog-page-archive','Archive Page').'
-																'.self::createMenuItem('blog-page-category','Category Page').'
-																'.self::createMenuItem('blog-page-search','Search Result Page').'
-																'.self::createMenuItem('blog-page-author','Author Page').'
-															</ul>												
-														</li>
 													</ul>
 												</li>
 												<li>
-													'.self::createMenuItem('#','Shortcode',true,false).'
+													'.self::createMenuItem('#','Contact',true,false). '
 													<ul>
-														<li>
-															'.self::createMenuItem('#','Shortcodes I',true,false).'
-															<ul>
-																'.self::createMenuItem('shortcode-accordion','Accordion').'
-																'.self::createMenuItem('shortcode-audio','Audio').'
-																'.self::createMenuItem('shortcode-background-video','Background Video').'
-																'.self::createMenuItem('shortcode-blockquote','Blockquote').'
-																'.self::createMenuItem('shortcode-button','Button').'
-																'.self::createMenuItem('shortcode-call-to-action','Call To Action').'
-																'.self::createMenuItem('shortcode-class','Class').'
-																'.self::createMenuItem('shortcode-contact-form','Contact Form').'
-																'.self::createMenuItem('shortcode-counter-box','Counter Box').'
-																'.self::createMenuItem('shortcode-counter-list','Counter List').'
-															</ul>
-														</li>
-														<li>
-															'.self::createMenuItem('#','Shortcodes II',true,false).'
-															<ul>
-																'.self::createMenuItem('shortcode-divider','Divider').'
-																'.self::createMenuItem('shortcode-dropcap','Dropcap').'
-																'.self::createMenuItem('shortcode-feature','Feature').'
-																'.self::createMenuItem('shortcode-flexslider','FlexSlider').'
-																'.self::createMenuItem('shortcode-gallery','Gallery').'
-																'.self::createMenuItem('shortcode-google-map','Google Map').'
-																'.self::createMenuItem('shortcode-header','Header').'
-																'.self::createMenuItem('shortcode-header-subheader','Header &amp; Subheader').'
-																'.self::createMenuItem('shortcode-iframe','Iframe').'
-																'.self::createMenuItem('shortcode-layout','Layout').'
-															</ul>												
-														</li>
-														<li>
-															'.self::createMenuItem('#','Shortcodes III',true,false).'
-															<ul>
-																'.self::createMenuItem('shortcode-list','List').'
-																'.self::createMenuItem('shortcode-nivo-slider','Nivo Slider').'
-																'.self::createMenuItem('shortcode-notice','Notice').'
-																'.self::createMenuItem('shortcode-preformatted-text','Preformatted Text').'
-																'.self::createMenuItem('shortcode-pricing-plan','Pricing Plan').'
-																'.self::createMenuItem('shortcode-recent-post','Recent Post').'
-																'.self::createMenuItem('shortcode-sitemap','Sitemap').'
-																'.self::createMenuItem('shortcode-social-icon','Social Icon').'
-																'.self::createMenuItem('shortcode-supersized','Supersized').'
-																'.self::createMenuItem('shortcode-tab','Tab').'
-															</ul>												
-														</li>
-														<li>
-															'.self::createMenuItem('#','Shortcodes IV',true,false).'
-															<ul>
-																'.self::createMenuItem('shortcode-team','Team').'
-																'.self::createMenuItem('shortcode-twitter-user-timeline','Twitter User Timeline').'
-																'.self::createMenuItem('shortcode-testimonial','Testimonial').'
-																'.self::createMenuItem('shortcode-vertical-grid','Vertical Grid').'
-																'.self::createMenuItem('shortcode-zaccordion','zAccordion').'
-																'.self::createMenuItem('shortcode-list-of-icon','List Of Icons').'
-																'.self::createMenuItem('shortcode-list-of-widget','List Of Widgets').'
-															</ul>												
-														</li>
-													</ul>
-												</li>
-												<li>
-													'.self::createMenuItem('#','Contact',true,false).'
-													<ul>
+														'.self::createMenuItem('about-us-2', 'About Us').'
 														'.self::createMenuItem('contact-us-1','Contact Style I').'
 														'.self::createMenuItem('contact-us-2','Contact Style II').'
 													</ul>
