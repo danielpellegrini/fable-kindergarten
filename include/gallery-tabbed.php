@@ -1,31 +1,31 @@
 		<!-- Tabs -->
 		<div class="template-component-tab">
-			
+
 			<!-- Navigation -->
 			<ul>
 				<li>
-					<a href="#template-tab-1">Valentine&#039;s Day</a>
+					<a href="#template-tab-1">Gallery example I</a>
 					<span></span>
 				</li>
 				<li>
-					<a href="#template-tab-2">City ZOO Trip</a>
+					<a href="#template-tab-2">Gallery example II</a>
 					<span></span>
 				</li>
 				<li>
-					<a href="#template-tab-3">Mother&#039; Day</a>
+					<a href="#template-tab-3">Gallery example III</a>
 					<span></span>
 				</li>
 			</ul>
-			
+
 			<!-- Tab #1 -->
 			<div id="template-tab-1">
-				
+
 				<!-- Gallery -->
 				<div class="template-component-gallery">
-					
+
 					<!-- Layout 50x50 -->
 					<ul class="template-layout-50x50 template-clear-fix">
-						
+
 						<!-- Left column -->
 						<li class="template-layout-column-left">
 							<div class="template-component-image template-component-image-hover-slide-enable template-fancybox template-preloader">
@@ -40,7 +40,7 @@
 								<p><b>Play Time In Kindergarten</b> Tenderhearts Class</p>
 							</div>
 						</li>
-						
+
 						<!-- Right column -->
 						<li class="template-layout-column-right">
 							<div class="template-component-image template-component-image-hover-slide-enable template-fancybox template-preloader">
@@ -53,9 +53,9 @@
 									<span>Bouncy Bears Class</span>
 								</div>
 								<p><b>Classes in Painting</b> Bouncy Bears Class</p>
-							</div>			
+							</div>
 						</li>
-						
+
 						<!-- Left column -->
 						<li class="template-layout-column-left">
 							<div class="template-component-image template-component-image-hover-slide-enable template-fancybox template-preloader">
@@ -70,7 +70,7 @@
 								<p><b>Drawing and Painting Lessons</b> Tenderhearts Class</p>
 							</div>
 						</li>
-						
+
 						<!-- Right column -->
 						<li class="template-layout-column-right">
 							<div class="template-component-image template-component-image-hover-slide-enable template-fancybox template-preloader">
@@ -83,24 +83,24 @@
 									<span>Tenderhearts Class</span>
 								</div>
 								<p><b>Outdoor Activity During Recess</b> Tenderhearts Class</p>
-							</div>			
+							</div>
 						</li>
-						
+
 					</ul>
-					
-				</div>	
-				
+
+				</div>
+
 			</div>
-			
+
 			<!-- Tab #2 -->
 			<div id="template-tab-2">
-				
+
 				<!-- Gallery -->
 				<div class="template-component-gallery">
-					
+
 					<!-- Layout 33x33x33 -->
 					<ul class="template-layout-33x33x33 template-clear-fix">
-						
+
 						<!-- Left column -->
 						<li class="template-layout-column-left">
 							<div class="template-component-image template-component-image-hover-slide-enable template-fancybox template-preloader">
@@ -111,11 +111,11 @@
 								<div>
 									<h6>Classes in Writing</h6>
 									<span>Shining Stars Class</span>
-								</div>	
+								</div>
 								<p><b>Classes in Writing</b> Shining Stars Class</p>
 							</div>
 						</li>
-						
+
 						<!-- Center column -->
 						<li class="template-layout-column-center">
 							<div class="template-component-image template-component-image-hover-slide-enable template-fancybox template-preloader">
@@ -128,9 +128,9 @@
 									<span>Shining Stars Class</span>
 								</div>
 								<p><b>Classes in Painting</b> Shining Stars Class</p>
-							</div>			
+							</div>
 						</li>
-						
+
 						<!-- Right column -->
 						<li class="template-layout-column-right">
 							<div class="template-component-image template-component-image-hover-slide-enable template-fancybox template-preloader">
@@ -145,7 +145,7 @@
 								<p><b>Drawing and Painting Lessons</b> Tenderhearts Class</p>
 							</div>
 						</li>
-						
+
 						<!-- Left column -->
 						<li class="template-layout-column-left">
 							<div class="template-component-image template-component-image-hover-slide-enable template-fancybox template-preloader">
@@ -158,9 +158,9 @@
 									<span>Tenderhearts Class</span>
 								</div>
 								<p><b>Outdoor Activity During Recess</b> Tenderhearts Class</p>
-							</div>			
+							</div>
 						</li>
-						
+
 						<!-- Center column -->
 						<li class="template-layout-column-center">
 							<div class="template-component-image template-component-image-hover-slide-enable template-fancybox template-preloader">
@@ -175,7 +175,7 @@
 								<p><b>Columbus Day Celebration</b> Bouncy Bears Class</p>
 							</div>
 						</li>
-						
+
 						<!-- Right column -->
 						<li class="template-layout-column-right">
 							<div class="template-component-image template-component-image-hover-slide-enable template-fancybox template-preloader">
@@ -188,24 +188,24 @@
 									<span>Little Lambs Class</span>
 								</div>
 								<p><b>Birthday in Kindergarten</b> Little Lambs Class</p>
-							</div>			
+							</div>
 						</li>
-						
+
 					</ul>
-					
-				</div>	
-				
+
+				</div>
+
 			</div>
-			
+
 			<!-- Tab #3 -->
 			<div id="template-tab-3">
-				
+
 				<!-- Gallery -->
 				<div class="template-component-gallery">
-					
+
 					<!-- Layout 25x25x25x25 -->
 					<ul class="template-layout-25x25x25x25 template-clear-fix">
-						
+
 						<!-- Left column -->
 						<li class="template-layout-column-left">
 							<div class="template-component-image template-component-image-hover-slide-enable template-fancybox template-preloader">
@@ -216,11 +216,11 @@
 								<div>
 									<h6>Classes in Writing</h6>
 									<span>Shining Stars Class</span>
-								</div>	
+								</div>
 								<p><b>Classes in Writing</b> Shining Stars Class</p>
 							</div>
 						</li>
-						
+
 						<!-- Center left column -->
 						<li class="template-layout-column-center-left">
 							<div class="template-component-image template-component-image-hover-slide-enable template-fancybox template-preloader">
@@ -233,9 +233,9 @@
 									<span>Shining Stars Class</span>
 								</div>
 								<p><b>Classes in Painting</b> Shining Stars Class</p>
-							</div>			
+							</div>
 						</li>
-						
+
 						<!-- Center right column -->
 						<li class="template-layout-column-center-right">
 							<div class="template-component-image template-component-image-hover-slide-enable template-fancybox template-preloader">
@@ -250,7 +250,7 @@
 								<p><b>Classes in Painting</b> Bouncy Bears Class</p>
 							</div>
 						</li>
-						
+
 						<!-- Right column -->
 						<li class="template-layout-column-right">
 							<div class="template-component-image template-component-image-hover-slide-enable template-fancybox template-preloader">
@@ -263,9 +263,9 @@
 									<span>Tenderhearts Class</span>
 								</div>
 								<p><b>Play Time In Kindergarten</b> Tenderhearts Class</p>
-							</div>			
+							</div>
 						</li>
-						
+
 						<!-- Left column -->
 						<li class="template-layout-column-left">
 							<div class="template-component-image template-component-image-hover-slide-enable template-fancybox template-preloader">
@@ -280,7 +280,7 @@
 								<p><b>Birthday in Kindergarten</b> Little Lambs Class</p>
 							</div>
 						</li>
-						
+
 						<!-- Center left column -->
 						<li class="template-layout-column-center-left">
 							<div class="template-component-image template-component-image-hover-slide-enable template-fancybox template-preloader">
@@ -293,9 +293,9 @@
 									<span>Bouncy Bears Class</span>
 								</div>
 								<p><b>Columbus Day Celebration</b> Bouncy Bears Class</p>
-							</div>			
+							</div>
 						</li>
-						
+
 						<!-- Center right column -->
 						<li class="template-layout-column-center-right">
 							<div class="template-component-image template-component-image-hover-slide-enable template-fancybox template-preloader">
@@ -310,7 +310,7 @@
 								<p><b>Outdoor Activity During Recess</b> Tenderhearts Class</p>
 							</div>
 						</li>
-						
+
 						<!-- Right column -->
 						<li class="template-layout-column-right">
 							<div class="template-component-image template-component-image-hover-slide-enable template-fancybox template-preloader">
@@ -323,13 +323,13 @@
 									<span>Tenderhearts Class</span>
 								</div>
 								<p><b>Drawing and Painting Lessons</b> Tenderhearts Class</p>
-							</div>			
+							</div>
 						</li>
-						
+
 					</ul>
-					
-				</div>	
-				
+
+				</div>
+
 			</div>
-			
-		</div>	
+
+		</div>

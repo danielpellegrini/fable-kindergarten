@@ -126,7 +126,7 @@
 					<div class="template-section-white template-align-center">
 						
 						<!-- Header -->
-						<h5 class="template-text-uppercase">Awesome Video Backgrounds</h5>
+						<h5 class="template-text-uppercase">Video Background Example</h5>
 						
 						<!-- Divider -->
 						<div class="template-component-divider template-component-divider-style-3 template-margin-top-reset .template-margin-bottom-3"></div>

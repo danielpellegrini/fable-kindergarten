@@ -141,8 +141,7 @@ class Template
 									<ul>
 										'.self::createMenuItem('post-image','Post Image').'
 										'.self::createMenuItem('post-audio','Post Audio').'
-										'.self::createMenuItem('post-video-1','Post Video I').'
-										'.self::createMenuItem('post-video-2','Post Video II').'
+										'.self::createMenuItem('post-video-2','Post Video').'
 										'.self::createMenuItem('post-slider','Post Slider').'
 										'.self::createMenuItem('post-quote','Post Quote').'
 									</ul>												
@@ -193,8 +192,7 @@ class Template
 											<li>
 												' . self::createMenuItem('post-image', 'Post Image') . '
 												' . self::createMenuItem('post-audio', 'Post Audio') . '
-												' . self::createMenuItem('post-video-1', 'Post Video I') . '
-												' . self::createMenuItem('post-video-2', 'Post Video II') . '
+												' . self::createMenuItem('post-video-2', 'Post Video') . '
 												' . self::createMenuItem('post-slider', 'Post Slider') . '
 												' . self::createMenuItem('post-quote', 'Post Quote') . '												
 											</li>
