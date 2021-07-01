@@ -8,7 +8,7 @@
 
 			<!-- Bottom header -->
 			<div class="template-header-bottom">
-				<?php Template::includeHeaderBottom('Gallery Left Sidebar','Gallery Left Sidebar',8,1); ?>
+				<?php Template::includeHeaderBottom('Gallery','Images',8,1); ?>
 			</div>
 
 		</div>
@@ -27,7 +27,7 @@
 				<!-- Content -->
 				<div class="template-content-layout-column-right">
 
-					<h4>Gallery Left Sidebar</h4>
+					<h4>Gallery</h4>
 
 					<p class="template-padding-reset">
 						Lorem ipsum dolor sit amet consectetur adipiscing elit. Nam risus ante accumsan vel hend eget cursus in ante. Pellentesque eget euismod metus in sed magna lacinia commodo.

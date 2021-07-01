@@ -35,7 +35,7 @@
 							<li class="template-layout-column-left template-component-pricing-plan-background-1">
 								<div>
 									<div class="template-component-pricing-plan-price">
-										<span>$15</span>
+										<span>€15</span>
 										<span>/ day</span>
 									</div>
 									<h5 class="template-component-pricing-plan-header">
@@ -62,7 +62,7 @@
 							<li class="template-layout-column-right template-component-pricing-plan-background-2">
 								<div>
 									<div class="template-component-pricing-plan-price">
-										<span>$25</span>
+										<span>€25</span>
 										<span>/ day</span>
 									</div>
 									<h5 class="template-component-pricing-plan-header">
@@ -201,7 +201,7 @@
 						<ul class="template-layout-33x33x33 template-clear-fix">
 							<li class="template-layout-column-left">
 								<div class="template-component-pricing-plan-price">
-									<span>$10</span>
+									<span>€10</span>
 									<span>/ day</span>
 								</div>
 								<h5 class="template-component-pricing-plan-header">
@@ -226,7 +226,7 @@
 							</li>
 							<li class="template-layout-column-center">
 								<div class="template-component-pricing-plan-price">
-									<span>$25</span>
+									<span>€25</span>
 									<span>/ day</span>
 								</div>
 								<h5 class="template-component-pricing-plan-header">
@@ -251,7 +251,7 @@
 							</li>
 							<li class="template-layout-column-right">
 								<div class="template-component-pricing-plan-price">
-									<span>$35</span>
+									<span>€35</span>
 									<span>/ day</span>
 								</div>
 								<h5 class="template-component-pricing-plan-header">

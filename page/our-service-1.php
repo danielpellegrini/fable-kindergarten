@@ -8,7 +8,7 @@
 
 			<!-- Bottom header -->
 			<div class="template-header-bottom">
-				<?php Template::includeHeaderBottom('Our Services','Layout Style I',3,1); ?>
+				<?php Template::includeHeaderBottom('Our Services','Skills and Price',3,1); ?>
 			</div>
 
 		</div>
@@ -177,7 +177,7 @@
 					<!-- Header and subheader -->
 					<div class="template-component-header-subheader">
 						<h2>Pricing Plans</h2>
-						<h6>Full day session starting from $25</h6>
+						<h6>Full day session starting from €25</h6>
 						<div></div>
 					</div>	
 
@@ -187,7 +187,7 @@
 							<li class="template-layout-column-left template-component-pricing-plan-background-1">
 								<div>
 									<div class="template-component-pricing-plan-price">
-										<span>$15</span>
+										<span>€15</span>
 										<span>/ day</span>
 									</div>
 									<h5 class="template-component-pricing-plan-header">
@@ -214,7 +214,7 @@
 							<li class="template-layout-column-right template-component-pricing-plan-background-2">
 								<div>
 									<div class="template-component-pricing-plan-price">
-										<span>$25</span>
+										<span>€25</span>
 										<span>/ day</span>
 									</div>
 									<h5 class="template-component-pricing-plan-header">

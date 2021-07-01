@@ -69,179 +69,160 @@ class Template
 	{
 		$html=
 		'
-						<div class="template-main template-clear-fix">
+			<div class="template-main template-clear-fix">
 
-							<div class="template-header-top-logo">
-								<a href="'.self::getPageURL('home',false).'">
-									<img src="media/image/logo_header.png" alt="" />
-								</a>
-							</div>
+				<div class="template-header-top-logo">
+					<a href="'.self::getPageURL('home',false).'">
+						<img src="media/image/logo_header.png" alt="" />
+					</a>
+				</div>
 
-							<div class="template-header-top-menu template-clear-fix">	
+				<div class="template-header-top-menu template-clear-fix">	
 		';
 		
 		if($menuId==2)
 		{
 			$html.=
 			'
-								<nav class="template-component-menu-default">
-									<ul class="sf-menu template-clear-fix">
-										'.self::createMenuItem('#home','Home','home').'
-										'.self::createMenuItem('#about','About','book').'
-										'.self::createMenuItem('#classes','Classes','schoolbag').'
-										'.self::createMenuItem('#teachers','Teachers','diagram').'
-										'.self::createMenuItem('#blog','Blog','printer').'
-										'.self::createMenuItem('#contact','Contact','envelope').'
-										'.self::createMenuItem('home','Exit One Page','stroller').'
-									</ul>
-								</nav>
+				<nav class="template-component-menu-default">
+					<ul class="sf-menu template-clear-fix">
+						'.self::createMenuItem('#home','Home','home').'
+						'.self::createMenuItem('#about','About','book').'
+						'.self::createMenuItem('#classes','Classes','schoolbag').'
+						'.self::createMenuItem('#teachers','Teachers','diagram').'
+						'.self::createMenuItem('#blog','Blog','printer').'
+						'.self::createMenuItem('#contact','Contact','envelope').'
+						'.self::createMenuItem('home','Exit One Page','stroller').'
+					</ul>
+				</nav>
 
-								<nav class="template-component-menu-responsive">
-									<ul class="template-clear-fix">
-										<li>
-											'.self::createMenuItem('#','Menu',true,false).'
-											<ul>
-												'.self::createMenuItem('#home','Home').'
-												'.self::createMenuItem('#about','About').'
-												'.self::createMenuItem('#classes','Classes').'
-												'.self::createMenuItem('#teachers','Teachers').'
-												'.self::createMenuItem('#blog','Blog').'
-												'.self::createMenuItem('#contact','Contact').'
-												'.self::createMenuItem('home','Exit One Page').'
-											</ul>
-										</li>
-									</ul>
-								</nav>
+				<nav class="template-component-menu-responsive">
+					<ul class="template-clear-fix">
+						<li>
+							'.self::createMenuItem('#','Menu',true,false).'
+							<ul>
+								'.self::createMenuItem('#home','Home').'
+								'.self::createMenuItem('#about','About').'
+								'.self::createMenuItem('#classes','Classes').'
+								'.self::createMenuItem('#teachers','Teachers').'
+								'.self::createMenuItem('#blog','Blog').'
+								'.self::createMenuItem('#contact','Contact').'
+								'.self::createMenuItem('home','Exit One Page').'
+							</ul>
+						</li>
+					</ul>
+				</nav>
 					';
 				}
 				else
 				{
 					$html.=
 					'
-								<nav class="template-component-menu-default">
+					<nav class="template-component-menu-default">
 
-									<ul class="sf-menu template-clear-fix">
+						<ul class="sf-menu template-clear-fix">
 
-										<li class="sf-mega-enable-0">
-											'.self::createMenuItem('home','Home','home',false).'
-										</li>
-										<li class="sf-mega-enable-0">
-											'.self::createMenuItem('#','About','document',false).'
-												<ul>
-													'.self::createMenuItem('our-service-1','Our Services').'
-													'.self::createMenuItem('page-right-sidebar','Page Right Sidebar').'
-													'.self::createMenuItem('page-left-sidebar','Page Left Sidebar').'
-												</ul>
-										</li>
-										<li class="sf-mega-enable-0">
-											'.self::createMenuItem('gallery-left-sidebar','Gallery','video',false).'
-										</li>
-										<li class="sf-mega-enable-0">
-											'.self::createMenuItem('#','Blog','printer',false).'
-												<ul>
-													'.self::createMenuItem('post-image','Post Image').'
-													'.self::createMenuItem('post-audio','Post Audio').'
-													'.self::createMenuItem('post-video-1','Post Video I').'
-													'.self::createMenuItem('post-video-2','Post Video II').'
-													'.self::createMenuItem('post-slider','Post Slider').'
-													'.self::createMenuItem('post-quote','Post Quote').'
-												</ul>												
-										</li>
-										 <li class="sf-mega-enable-0">
-											'.self::createMenuItem('#','Classes','lab',false). '
-												<ul>
-													' . self::createMenuItem('our-class', 'Our Classes') . '
-													' . self::createMenuItem('single-class', 'Single Class') . '
-													' . self::createMenuItem('our-staff-2', 'Our Staff') . '
-													' . self::createMenuItem('single-teacher', 'Single Teacher') . '
-												</ul>
-										</li>
-										<li class="sf-mega-enable-0">
-											'.self::createMenuItem('#','Contact','envelope',false). '
-													<ul>
-														' . self::createMenuItem('about-us-2', 'About Us') . '
-														' . self::createMenuItem('contact-us-1', 'Contact Us') . '
-														' . self::createMenuItem('pricing-plan-1', 'Pricing Plans') . '
-													</ul>
-										</li>
-
+							<li class="sf-mega-enable-0">
+								'.self::createMenuItem('home','Home','home',false).'
+							</li>
+							<li class="sf-mega-enable-0">
+								'.self::createMenuItem('#','About','document',false). '
+									<ul>
+										' . self::createMenuItem('about-us-2', 'About Us') . '
+										'.self::createMenuItem('our-service-1','Our Services'). '
+										' . self::createMenuItem('pricing-plan-1', 'Pricing Plans') . '
 									</ul>
-
-								</nav>
-							
-
-								<nav class="template-component-menu-responsive">
-
-									<ul class="template-clear-fix">
-
-										<li>
-											'.self::createMenuItem('#','Menu',true,false).'
-											<ul>
-												<li>
-													'.self::createMenuItem('home','Home',true,false).'
-												</li>
-												<li>
-													'.self::createMenuItem('#','Pages',true,false).'
-													<ul>
-														<li>
-															'.self::createMenuItem('#','Pages I',true,false).'
-															<ul>
-																'.self::createMenuItem('our-service-1','Our Services').'
-																'.self::createMenuItem('page-right-sidebar','Page Right Sidebar').'
-																'.self::createMenuItem('page-left-sidebar','Page Left Sidebar').'
-															</ul>
-														</li>
-														<li>
-															'.self::createMenuItem('#','Pages II',true,false).'
-															<ul>
-																'.self::createMenuItem('our-class','Our Classes').'
-																'.self::createMenuItem('single-class','Single Class').'
-																'.self::createMenuItem('our-staff-1','Our Staff I').'
-																'.self::createMenuItem('our-staff-2','Our Staff II').'
-																'.self::createMenuItem('single-teacher','Single Teacher').'
-																'.self::createMenuItem('sitemap','Sitemap').'
-															</ul>												
-														</li>
-														<li>
-															'.self::createMenuItem('#','Pages III',true,false).'
-															<ul>
-																'.self::createMenuItem('gallery-left-sidebar','Gallery').'
-															</ul>												
-														</li>
-													</ul>
-												</li>
-												<li>
-													'.self::createMenuItem('#','Blog',true,false).'
-													<ul>
-														<li>
-															'.self::createMenuItem('#','Posts',true,false).'
-															<ul>
-																'.self::createMenuItem('post-image','Post Image').'
-																'.self::createMenuItem('post-audio','Post Audio').'
-																'.self::createMenuItem('post-video-1','Post Video I').'
-																'.self::createMenuItem('post-video-2','Post Video II').'
-																'.self::createMenuItem('post-slider','Post Slider').'
-																'.self::createMenuItem('post-quote','Post Quote').'
-															</ul>												
-														</li>
-													</ul>
-												</li>
-												<li>
-													'.self::createMenuItem('#','Contact',true,false). '
-													<ul>
-														'.self::createMenuItem('about-us-2', 'About Us').'
-														'.self::createMenuItem('contact-us-1','Contact Style I').'
-														'.self::createMenuItem('contact-us-2','Contact Style II').'
-													</ul>
-												</li>
-
-											</ul>
-
-										<li>
-
+							</li>
+							<li class="sf-mega-enable-0">
+								'.self::createMenuItem('gallery-left-sidebar','Gallery','video',false).'
+							</li>
+							<li class="sf-mega-enable-0">
+								'.self::createMenuItem('#','Blog','printer',false).'
+									<ul>
+										'.self::createMenuItem('post-image','Post Image').'
+										'.self::createMenuItem('post-audio','Post Audio').'
+										'.self::createMenuItem('post-video-1','Post Video I').'
+										'.self::createMenuItem('post-video-2','Post Video II').'
+										'.self::createMenuItem('post-slider','Post Slider').'
+										'.self::createMenuItem('post-quote','Post Quote').'
+									</ul>												
+							</li>
+								<li class="sf-mega-enable-0">
+								'.self::createMenuItem('#','Classes','lab',false). '
+									<ul>
+										' . self::createMenuItem('our-class', 'Our Classes') . '
+										' . self::createMenuItem('single-class', 'Single Class') . '
+										' . self::createMenuItem('our-staff-2', 'Our Staff') . '
+										' . self::createMenuItem('single-teacher', 'Single Teacher') . '
 									</ul>
+								</li>
+							<li class="sf-mega-enable-0">
+								'.self::createMenuItem('#','Contact','envelope',false). '
+										<ul>
+											' . self::createMenuItem('contact-us', 'Contact Us') . '
+										</ul>
+							</li>
 
-								</nav>
+						</ul>
+
+					</nav>				
+ 
+					<nav class="template-component-menu-responsive">
+
+						<ul class="template-clear-fix">
+
+							<li>
+								'.self::createMenuItem('#','Menu',true,false).'
+								<ul>
+									<li>
+										'.self::createMenuItem('#','About',true,false). ' 				
+										<ul>
+											<li>
+												' . self::createMenuItem('about-us-2', 'About Us') . '
+												'.self::createMenuItem('our-service-1','Our Services'). '
+												' . self::createMenuItem('pricing-plan-1', 'Pricing Plans') . '											
+											</li>
+										</ul>
+									</li>
+									<li>
+										' . self::createMenuItem('gallery-left-sidebar', 'Gallery') . '												
+									</li>
+									<li>
+										'.self::createMenuItem('#','Blog',true,false).'
+										<ul>
+											<li>
+												' . self::createMenuItem('post-image', 'Post Image') . '
+												' . self::createMenuItem('post-audio', 'Post Audio') . '
+												' . self::createMenuItem('post-video-1', 'Post Video I') . '
+												' . self::createMenuItem('post-video-2', 'Post Video II') . '
+												' . self::createMenuItem('post-slider', 'Post Slider') . '
+												' . self::createMenuItem('post-quote', 'Post Quote') . '												
+											</li>
+										</ul>
+									</li>
+									<li>
+										' . self::createMenuItem('#', 'Classes', 'lab', false) . '
+										<ul>
+											' . self::createMenuItem('our-class', 'Our Classes') . '
+											' . self::createMenuItem('single-class', 'Single Class') . '
+											' . self::createMenuItem('our-staff-2', 'Our Staff') . '
+											' . self::createMenuItem('single-teacher', 'Single Teacher') . '
+										</ul>
+									</li>
+									<li>
+										'.self::createMenuItem('#','Contact',true,false). '
+										<ul>
+											' . self::createMenuItem('contact-us', 'Contact Us') . '
+										</ul>
+									</li>
+
+								</ul>
+
+							<li>
+
+						</ul>
+
+					</nav>
 				';
 		}
 		
@@ -268,12 +249,12 @@ class Template
 		
 		$html=
 		'
-						<div class="'.join(' ',$class).'">
-							<div class="template-main">
-								<h1>'.htmlspecialchars($header).'</h1>
-								<h6>'.htmlspecialchars($subheader).'</h6>
-							</div>
-						</div>
+			<div class="'.join(' ',$class).'">
+				<div class="template-main">
+					<h1>'.htmlspecialchars($header).'</h1>
+					<h6>'.htmlspecialchars($subheader).'</h6>
+				</div>
+			</div>
 ';
 		
 		echo $html;
