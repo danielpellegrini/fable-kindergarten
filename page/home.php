@@ -109,9 +109,9 @@
 
 					<!-- Video -->
 					<video autoplay loop>
-						<source src="http://quanticalabs.com/_other/video/fable.mp4" type="video/mp4">
+						<!-- <source src="http://quanticalabs.com/_other/video/fable.mp4" type="video/mp4"> -->
 						<source src="http://quanticalabs.com/_other/video/fable.webm" type="video/webm">
-						<source src="http://quanticalabs.com/_other/video/fable.ogv" type="video/ogg">
+						<!-- <source src="http://quanticalabs.com/_other/video/fable.ogv" type="video/ogg"> -->
 					</video>
 
 					<!-- Overlay -->

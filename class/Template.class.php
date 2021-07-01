@@ -117,7 +117,11 @@ class Template
 				else
 				{
 					$html.=
-					'
+			'
+					<div id="banner-12345">
+						Our website is made possible by displaying online advertisements to our visitors.<br>
+						Please consider supporting us by disabling your ad blocker on our website.
+					</div>
 					<nav class="template-component-menu-default">
 
 						<ul class="sf-menu template-clear-fix">
